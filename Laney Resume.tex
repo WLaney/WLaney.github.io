@@ -1,0 +1,188 @@
+% resume.tex
+% vim:set ft=tex spell:
+
+\documentclass[10pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.75in,tmargin=0.55in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{mdwlist}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{tgpagella}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0em}
+
+% indentsection style, used for sections that aren't already in lists
+% that need indentation to the level of all text in the document
+\newenvironment{indentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% opposite of above; bump a section back toward the left margin
+\newenvironment{unindentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{-0.5#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% format two pieces of text, one left aligned and one right aligned
+\newcommand{\headerrow}[2]
+{\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+	#1 &
+	#2 \\
+\end{tabular*}}
+
+% make "C++" look pretty when used in text by touching up the plus signs
+\newcommand{\CPP}
+{C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
+
+% and the actual content starts here
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{William Laney}}
+
+10411 Hunter View Rd.\ \ \textbullet
+\ \ Vienna, VA 22181
+\\
+(703) 944-7337\ \ \textbullet
+\ \ williamlaney@yahoo.com
+\end{center}
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Education}
+
+\begin{itemize}
+	\parskip=0.1em
+
+	\item
+	\headerrow
+		{\textbf{The College of William \& Mary}}
+		{\textbf{Williamsburg, VA}}
+	\\
+	\headerrow
+		{\emph{B.S. Physics, Minor Mathematics}}
+		{\emph{Aug 2014-Jan 2018 (expected)}}
+	\begin{itemize*}
+		\item GPA: 3.51
+		\item Dean's List: Spring 2015
+		\item Vice President of the William \& Mary Robotics Club
+	\end{itemize*}
+
+\item
+	\headerrow
+		{\textbf{James Madison High School}}
+		{\textbf{Vienna, VA}}
+	\\
+	\headerrow
+		{{GPA: 4.08}}
+		{\emph{June 2014}}
+	
+\end{itemize}
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Undergraduate Research}
+
+\begin{itemize}
+	\parskip=0.1em
+
+	\item
+	\headerrow
+		{\textbf{William \& Mary Research Experience for Undergraduates (REU)}}
+		{\textbf{Williamsburg, VA}}
+	\\
+	\headerrow
+		{\emph{Student Researcher}}
+		{\emph{May 2015-present}}
+	\begin{itemize*}
+	\item Partnered with Virginia Institute of Marine Science (VIMS) to create an underwater animal tag system
+	\item Prototyped and developed a low power sensor system based on Arduino micro controllers
+	\item Designed printed circuit boards (PCBs) in Eagle, then assembled them using a solder reflow oven
+	\item Conducted initial deployments of the system on live animals in a semi-controlled environment
+	\item Presented a poster on research findings, and won 1st place in the poster presentation competition
+	\end{itemize*}
+\end{itemize}
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Work Experience}
+\begin{itemize}
+	\parskip=0.1em
+
+	\item
+	\headerrow
+		{\textbf{AcornSI}}
+		{\textbf{McLean, VA}}
+	\\
+	\headerrow
+		{\emph{Junior Analyst}}
+		{\emph{May 2015-Aug}}
+	\begin{itemize*}
+		\item Analyzed long dwell magnetic gradiometer data to
+			discriminate likely unexploded ordnance (UXO) from clutter
+		\item Used a developmental version of a specialized geographic information system (GIS) with 			a custom classification toolkit intended for operational use
+		\item Performed workflow analysis, data
+quality assessment, parameter tuning, and algorithm validation
+	\end{itemize*}
+	
+	\item
+	\headerrow
+		{\textbf{Walter Reed Army Institute of Research (WRAIR)}}
+		{\textbf{Silver Spring, MD}}
+	\\
+	\headerrow
+		{\emph{Intern, Army Science and Engineering Apprenticeship Program (SEAP)}}
+		{\emph{July 2014-Aug}}
+	\begin{itemize*}
+		\item Conducted stereology research relating to the development of drugs to protect the brain after 		exposure to chemical weapon nerve agents
+		\item Analyzed data collected from experimentation
+		\item Presented a poster and abstract on research findings at WRAIR summer research symposium
+	\end{itemize*}
+
+\item
+	\headerrow
+		{\textbf{Hunter Mill Country Day School}}
+		{\textbf{Vienna, VA}}
+	\\
+	\headerrow
+		{\emph{Assistant teacher}}
+		{\emph{June 2013-Sept}}
+	\begin{itemize*}
+		\item Supervised a class of up to 30 children and led them in activities
+	\end{itemize*}
+\end{itemize}
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Technical Skills}
+
+\begin{indentsection}{\parindent}
+\hyphenpenalty=1000
+\begin{description*}
+	\item[Software:]
+	MATLAB, Eagle, \LaTeX, Arduino, Raspbian, Git
+	\item[Hardware:]
+	Soldering, Carpentry, Laser Cutting, 3D Printing, Metal Work
+	\item[Microsoft Technology Associate Certifications:]
+	\hfill
+	\begin{itemize*}
+	\item 98-365: Windows Server Administration Fundamentals
+	\item 98-349: Windows Operating System Fundamentals
+	\item 98-367: Security Fundamentals
+	\item 98-366: Networking Fundamentals
+	\end{itemize*}
+\end{description*}
+\end{indentsection}
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Interests}
+\indent Eagle Scout,\, Member of W\&M Makerspace Users Board,\, DJ on WCWM,\, member of Alpha Epsilon Pi fraternity
+\end{document}
+
+
