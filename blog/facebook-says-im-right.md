@@ -1,4 +1,4 @@
-#Facebook Says I'm Right
+# Facebook Says I'm Right
 
 I've been thinking about social media some lately. Partly because of the recent [changes to the facebook news feed](https://www.facebook.com/zuck/posts/10104413015393571?pnref=story), and partly because I've been spending more time on it.
 
