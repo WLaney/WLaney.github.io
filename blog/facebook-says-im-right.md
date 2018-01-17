@@ -1,5 +1,7 @@
 # Facebook Says I'm Right
 
+#### 17 Jan 2018
+
 I've been thinking about social media some lately. Partly because of the recent [changes to the facebook news feed](https://www.facebook.com/zuck/posts/10104413015393571?pnref=story), and partly because I've been spending more time on it.
 
 The Facebook news feed changes struck a particular cord with me, because it validates something I've been doing for over a year now. I decided on my own that I was sick of seeing politics and random news stories on Facebook, so I decided to do something about it. Every Time I saw any link or story shared by one of my friends I would click on the three little dots on the top right of the post, and click the button that says unfollow or hide all.
