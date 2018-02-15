@@ -36,7 +36,7 @@ Sometimes friends ask what shows I listen to, and that's hard to answer without 
 
 [Liftoff](https://www.relay.fm/liftoff) - As they say at the begging of every episode, it is a show about space and related subjects. If you like space and related subjects you'll probably like this show, but it can be a little dry at times.
 
-[Limited Resources](http://lrcast.com/) - If you are at all serious about drafting Magic the Gathering you need to be listening to this show. If that last sentence doesn't make sense to you, you do not. Also if you play Magic, but are more interested in competitive constructed, you should listen to the sister show [Constructed Resources](http://www.crcast.com/), It's about the same, and I listen to it occasionally.
+[Limited Resources](http://lrcast.com/) - If you are at all serious about drafting Magic the Gathering you need to be listening to this show. If that last sentence doesn't make sense to you, you do not.
 
 [Loading Ready Run, Aggregate Feed](http://loadingreadyrun.com/lrrcasts/archive) - Like 5 podcasts in one feed, what could be better? I like the Loading Ready Run crew, but I don't listen to all the shows. The ones I listen to right now are Tap Tap Concede, their causal Magic the Gathering show, and there new Dungeons & Dragons show Dice Friends. If you go back into their archives I highly recommend Magnum rewatch, and Temple of Lava Bears. Temple of the Lava Bears is the best Dungeons and Dragons podcast I've ever heard, and I recommend it even if you don't like D&D.
 
