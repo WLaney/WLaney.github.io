@@ -1,5 +1,6 @@
 # Posts
 
+* [Building a Coffee Can Radar](blog/building-a-coffee-can-radar)
 * [Contributing to Contribute](blog/contributing-to-contribute)
 * [Pinnacle Speaker Repair](blog/pinnacle-speaker-repair)
 * [State of My Podcasts, 2018](blog/state-of-my-podcasts-2018)
