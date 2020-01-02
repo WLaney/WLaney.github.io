@@ -1,6 +1,6 @@
 # Three Semesters, by the numbers
 
-##An adventure in time tracking
+## An adventure in time tracking
 
 ## Intro
 
